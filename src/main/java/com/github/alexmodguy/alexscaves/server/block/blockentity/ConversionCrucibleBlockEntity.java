@@ -55,7 +55,7 @@ import java.util.stream.Collectors;
 public class ConversionCrucibleBlockEntity extends BlockEntity {
 
     private static final Map<Optional<Holder.Reference<Biome>>, Integer> BIOME_COLORS = new HashMap<>();
-    public static final int MAX_FILL_AMOUNT = 10;
+    public static final int MAX_FILL_AMOUNT = 100;
     public static final int MAX_CONVERSION_TIME = 100;
     private static final int PLAINS_FOG_COLOR = 12638463;
 
